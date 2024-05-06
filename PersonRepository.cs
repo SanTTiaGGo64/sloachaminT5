@@ -91,7 +91,7 @@ namespace sloachaminT5
             catch (Exception ex)
             {
                 StatusMessage = string.Format("Error al actualizar nombre de persona: {0}", ex.Message);
-            }
+            } 
         }
     }
 }
